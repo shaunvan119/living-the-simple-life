@@ -146,6 +146,20 @@ nav a:focus {
     color: #707070;
 }
 
+
+
+@media (max-width: 675px) {
+    nav ul {
+        flex-direction: column;
+    }
+    
+    nav li {
+        margin: .5em 0;
+    }
+}
+
+
+/* articals */
 .article-recent {
     
     margin-bottom: 3em;
@@ -156,13 +170,18 @@ nav a:focus {
     margin-bottom: 1rem;
 }
 
-@media (max-width: 675px) {
-    nav ul {
-        flex-direction: column;
+@media (min-width: 675px) {
+    .article-recent {
+        flex-direction: row;
+        justify-content: space-between;
     }
     
-    nav li {
-        margin: .5em 0;
+    .article-recent-main {
+        width: 68%;
+    }
+    
+    .article-recent-secondary {
+        width: 30%;
     }
 }
 
