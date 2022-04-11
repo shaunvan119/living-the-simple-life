@@ -146,6 +146,16 @@ nav a:focus {
     color: #707070;
 }
 
+.article-recent {
+    
+    margin-bottom: 3em;
+}
+
+.article-read-more {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
 @media (max-width: 675px) {
     nav ul {
         flex-direction: column;
